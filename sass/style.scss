@@ -1,0 +1,179 @@
+// ClearFIX//
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+
+.navbar-text{
+    color: white;
+}
+
+.section-header{
+    padding: 25px;
+}
+
+.page-header div{
+    margin-top:150px;
+}
+
+// HEADER STYLES //
+body{
+    background-color: black;
+}
+
+.navbar-header-bg {
+    background: url('https://i.stack.imgur.com/Q7vuy.jpg');
+    background-size: cover;
+    position: relative;
+    height: 700px;
+    margin: 0 95px 0 95px;
+}
+
+.page-subtitle{
+    font-size: 36px;
+}
+
+.page-title{
+    font-size: 72px;
+}
+
+.button-text{
+    color: white;
+    padding: 10px 35px 10px 35px;
+    font-size: 28px;
+    width: auto;
+}
+
+// SERVICES //
+.services-bg{
+    background-color: white;
+    margin: 0 95px 0 95px;
+    height: 600px;
+}
+
+.services-img img{
+    padding: 5px;
+    height: 5%;
+    width: 5%;
+    margin: 10px;
+    border: 2px solid;
+    border-radius: 50%;
+}
+
+.services-header{
+    padding: 90px 0 0 0;
+}
+
+.services-header h2{
+    font-size: 42px;
+}
+
+.services-header p{
+    font-size: 18px;
+    padding: 0 0 30px 0;
+}
+
+.services-text h3{
+    font-size: 18px;
+    text-align: center;
+}
+
+.services-text p{
+    font-size: 14px;
+    text-align: center;
+    padding: 0 30px 0 30px;
+}
+
+// OUR PORTFOLIO //
+
+.ourPortfolio-bg{
+    background-color: #F5F5F5;
+    margin: 0 95px 0 95px;
+    height: 1300px;
+}
+
+.portfolio-header{
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 70px;
+}
+
+.portfolio-header h3{
+    font-size: 42px;
+}
+
+.portfolio-header p{
+    font-size:  16px;
+}
+
+.portfolio-item{
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    height: 350px;
+    margin-bottom: 75px;
+    padding: 0 18px;
+}
+.portfolio-item img {
+    width: 100%;
+    height: 80%;
+    background-color: grey;
+}
+.caption {
+    height: 90px;
+    display: block;
+    background-color: white;
+    background-size: cover;
+    padding-top: 10px;
+}
+
+.portfolio-item .caption h3{
+    font-size: 20px;
+    padding-top:20px;
+    line-height: 10%;
+}
+
+.portfolio-item .caption p{
+    font-size: 15px;
+    padding-top: -5px;
+}
+
+//FOOTER//
+
+.footer-bg{
+    height: 120px;
+    background-color: white;
+    margin: 0 95px 0 95px;
+}
+
+.page-footer .text{
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    padding: 50px 0 50px 180px;
+}
+
+.page-footer .images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+
+.page-footer .image-size{
+    color: white;
+    width: 50px;
+    height: 50px;
+    margin: 0 5px 0 5px;
+    border-radius: 100%;
+    background: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
