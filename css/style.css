@@ -2,6 +2,8 @@
 
 .clearfix:after { clear: both; }
 
+.navbar-button button span { padding-left: 10px; }
+
 .navbar-text { color: white; }
 
 .section-header { padding: 25px; }
